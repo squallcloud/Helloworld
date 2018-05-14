@@ -14,6 +14,7 @@ public:
   ~Hoge( void )
   {
     ::printf("Hoge::~Hoge()\n");
+    ::printf("Hoge::~Hoge()\n");
   }
 
   void Exec( void )
