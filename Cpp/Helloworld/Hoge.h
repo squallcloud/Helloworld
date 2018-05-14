@@ -11,6 +11,11 @@ public:
     ::printf("Hoge::Hoge()\n");
   }
 
+  ~Hoge( void )
+  {
+    ::printf("Hoge::~Hoge()\n");
+  }
+
   void Exec( void )
   {
     ::printf("Hoge::Exec()\n");
